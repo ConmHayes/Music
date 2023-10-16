@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+  width: 50rem;
+}
+
+li {
+  height: 200px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.albumCover {
+  float: left;
+  margin-right: 20px;
+  height: 150px;
+}
+
+button {
+  float: right;
+  margin-top: 90px;
+  margin-right: 20px;
+
+}
+
+.like-button {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.like-button.liked {
+  background-color: blue;
+}
