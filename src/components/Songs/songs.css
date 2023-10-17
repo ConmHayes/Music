@@ -17,9 +17,25 @@ li {
 
 button {
   float: right;
-  margin-top: 90px;
-  margin-right: 20px;
+  background: palevioletred;
+  color: white;
+  border: none;
+  margin-top: 4.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
 
+.liked-btn {
+  float: right;
+  background: red;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .like-button {

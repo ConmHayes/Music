@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../css/songs.css'
+import './songs.css'
 
 export default function Songs() {
 	const [like, setLike] = useState(false)
